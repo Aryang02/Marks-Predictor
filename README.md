@@ -11,16 +11,16 @@
 
 Columns:
 - Categorical:
-  -- gender : sex of students -> (Male/female)
-  -- race/ethnicity : ethnicity of students -> (Group A, B,C, D,E)
-  -- parental level of education : parents' final education ->(bachelor's degree,some college,master's degree,associate's degree,high school)
-  -- lunch : having lunch before test (standard or free/reduced)
-  -- test preparation course : complete or not complete before test
+  - gender : sex of students -> (Male/female)
+  - race/ethnicity : ethnicity of students -> (Group A, B,C, D,E)
+  - parental level of education : parents' final education ->(bachelor's degree,some college,master's degree,associate's degree,high school)
+  - lunch : having lunch before test (standard or free/reduced)
+  - test preparation course : complete or not complete before test
 
 -Numerical:
-  -- math score
-  -- reading score
-  -- writing score
+  - math score
+  - reading score
+  - writing score
 
 ### Models:
 The following models have been trained:
@@ -40,7 +40,7 @@ The predictions are made by the selected best model
 ### Setup:
 Follow these steps to run:
 In the terminal run,
-- activate the environment, 
+- activate the environment,\n
     conda activate venv/
 - install the requirements, 
     pip install -r requirements.txt
