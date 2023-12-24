@@ -40,9 +40,9 @@ The predictions are made by the selected best model
 ### Setup:
 Follow these steps to run:
 In the terminal run,
-- activate the environment,\n
-    conda activate venv/
+- activate the environment,
+  conda activate venv/
 - install the requirements, 
-    pip install -r requirements.txt
+  pip install -r requirements.txt
 - run the app using the command, 
-    python app.py
+  python app.py
