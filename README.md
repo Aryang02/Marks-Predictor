@@ -17,7 +17,7 @@ Columns:
   - lunch : having lunch before test (standard or free/reduced)
   - test preparation course : complete or not complete before test
 
--Numerical:
+- Numerical:
   - math score
   - reading score
   - writing score
@@ -41,8 +41,14 @@ The predictions are made by the selected best model
 Follow these steps to run:
 In the terminal run,
 - activate the environment,
+```
   conda activate venv/
+```
 - install the requirements, 
+```
   pip install -r requirements.txt
+```
 - run the app using the command, 
+```
   python app.py
+```  
