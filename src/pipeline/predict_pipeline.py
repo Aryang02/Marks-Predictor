@@ -3,6 +3,7 @@ import os
 import pandas as pd
 from src.exception import CustomException
 from utils import load_object
+from src.logger import logging
 
 
 class PredictPipeline:
@@ -13,10 +14,10 @@ class PredictPipeline:
         try:
             model_path = os.path.join("artifact", "model.pkl")
             preprocessor_path = os.path.join("artifact", "preprocessor.pkl")
-            print("Before Loading")
+            logging.info("Before Loading")
             model = load_object(file_path=model_path)
             preprocessor = load_object(file_path=preprocessor_path)
-            print("After Loading")
+            logging.info("After Loading")
             data_scaled = preprocessor.transform(features)
             preds = model.predict(data_scaled)
             return preds

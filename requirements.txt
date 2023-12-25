@@ -8,4 +8,5 @@ catboost
 dataclasses
 dill
 flask
+markupsafe==2.0.1
 -e .
